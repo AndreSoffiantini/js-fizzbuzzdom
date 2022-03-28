@@ -1,9 +1,14 @@
+h1 {
+    font-size: 5rem;
+}
+
 .number {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+    width: calc(100%/7 - 1.6rem);
+    aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.8rem;
 }
